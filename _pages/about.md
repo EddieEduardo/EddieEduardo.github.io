@@ -26,5 +26,12 @@ Research Interests
 Foundation models (multi-modality foundation models), Open-set recognition, computer vision, such as detection, segmentation and multiple object tracking, and find great satisfaction in deploying models into real-world applications.
 
 Publications
-------
+======
+
+{% include base_path %}
+{% for post in site.publications reversed limit:4 %}
+  {% include archive-single-publication-card.html %}
+{% endfor %}
+
+[View all publications]({{ base_path }}/publications/)
 
