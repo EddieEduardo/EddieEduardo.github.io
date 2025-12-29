@@ -13,9 +13,13 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 About Me
 ======
-A PhD graduate (Control Science & Engineering) from Harbin Institute of Technology (HIT). My research focuses on industrial visual defect detection and generalizable foundation models for real-world inspection systems. I work on multi-scene generalization, open-set defect recognition, and efficient architectures for deployment.
+Hi! I’m a freshly graduated PhD from Harbin Institute of Technology (Control Science & Engineering). My interests lie in computer vision and multimodal foundation models. I enjoy exploring how to bring large-scale pretraining and representation learning into real-world settings—making models not only powerful, but also efficient and practical. I also keep an eye onmodel efficiency, including lightweight architectures, more efficient training/inference, and the little engineering “gotchas” that come up during deployment.
 
-I have developed defect detection frameworks and lightweight backbones (e.g., 【你的模型/项目名1】, 【你的模型/项目名2】) and built multiple datasets for industrial inspection. I am currently interested in vision foundation models, self-supervised learning, and state-space / efficient sequence modeling for visual perception.
+I prefer turning ideas into systems that actually work, and then validating them in real applications. I’ve also worked on topics like image segmentation and multi-object tracking. During my PhD, my main focus was visual defect detection in industrial scenarios—making models more accurate, stable, and usable on real production lines with complex textures, changing lighting, and frequently shifting operating conditions. Along the way, I dealt with challenges around distribution shifts, limited annotations, and reliability requirements. Feel free to reach out and chat!
+
+HI！我是刚从哈工大毕业的一枚萌新小博士（控制科学与工程）。我的兴趣主要在计算机视觉和多模态大模型方向，喜欢琢磨怎么把大规模预训练和表征学习带到真实世界里，让模型既“能打”也“跑得动”。平时也会顺带关注一些模型轻量化，更轻的结构、更高效的训练/推理，以及落地部署时会遇到的各种工程小坑。
+
+我更喜欢把想法做成真正能用的系统，再拿到应用里去验证。也做过一些图像分割、多目标跟踪相关的研究。博士期间主要做的是工业场景的视觉缺陷检测，在纹理复杂、光照变化、工况经常变的真实产线里，把模型做得更准、更稳、更好用。过程中也接触了不少和数据分布变化、标注、可靠性要求相关的问题。欢迎来交流～
 
 Research Interests
 ------
