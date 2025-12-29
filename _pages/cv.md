@@ -14,3 +14,5 @@ Education
 * Ph.D in Harbin Institute of Technology, 2025
 * M.S. in Harbin Engineering University, 2021
 * B.S. in Shenyang Aerospace University, 2018
+
+* For more infos, refer to [my cv](/files/中英文简历.pdf)
