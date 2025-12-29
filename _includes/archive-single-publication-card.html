@@ -8,7 +8,7 @@
 
 <div class="pub-card">
   {% if teaser %}
-    <a class="pub-card__thumb" href="{{ base_path }}{{ post.url }}">
+    <div class="pub-card__thumb">
       <img src=
         {% if teaser contains "://" %}
           "{{ teaser }}"
@@ -16,12 +16,12 @@
           "{{ teaser | prepend: "/images/" | prepend: base_path }}"
         {% endif %}
       alt="">
-    </a>
+    </div>
   {% endif %}
 
   <div class="pub-card__body">
     <div class="pub-card__title">
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      {{ post.title }}
     </div>
 
     {% if post.authors %}
@@ -34,12 +34,9 @@
       </div>
     {% endif %}
 
-    {% if post.paperurl or post.codeurl or post.videourl or post.slidesurl %}
+    {% if post.paperurl %}
       <div class="pub-card__links">
-        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">Paper</a>{% endif %}
-        {% if post.codeurl %}{% if post.paperurl %} / {% endif %}<a href="{{ post.codeurl }}" target="_blank">Code</a>{% endif %}
-        {% if post.videourl %}{% if post.paperurl or post.codeurl %} / {% endif %}<a href="{{ post.videourl }}" target="_blank">Video</a>{% endif %}
-        {% if post.slidesurl %}{% if post.paperurl or post.codeurl or post.videourl %} / {% endif %}<a href="{{ post.slidesurl }}" target="_blank">Slides</a>{% endif %}
+        <a href="{{ post.paperurl }}" target="_blank">Paper</a>
       </div>
     {% endif %}
 
