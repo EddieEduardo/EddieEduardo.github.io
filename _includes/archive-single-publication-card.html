@@ -7,7 +7,13 @@
 {% endif %}
 
 <div class="pub-card">
-  {% if teaser %}
+  {% if post.teaser_video %}
+    <div class="pub-card__thumb">
+      <video class="pub-card__video" autoplay muted loop playsinline preload="metadata">
+        <source src="{{ post.teaser_video | prepend: base_path }}" type="video/mp4">
+      </video>
+    </div>
+  {% elsif teaser %}
     <div class="pub-card__thumb">
       <img src=
         {% if teaser contains "://" %}
