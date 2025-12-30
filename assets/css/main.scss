@@ -69,6 +69,18 @@
   border-radius:0 !important;
 }
 
+/* NEW: stacked mode (only for the one paper with two videos) */
+.pub-card__thumb--stack{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+/* NEW: keep each stacked video the SAME height as normal videos */
+.pub-card__thumb--stack video{
+  height:140px !important;
+}
+
 .pub-card__body{ flex:1; min-width:0; }
 
 .pub-card__title{
@@ -88,6 +100,9 @@
   .pub-card__thumb{ max-width:100%; flex-basis:auto; }
   .pub-card__thumb img,
   .pub-card__thumb video{ height:auto !important; }
+
+  /* NEW: stacked videos also become auto height on mobile */
+  .pub-card__thumb--stack video{ height:auto !important; }
 }
 
 /* Optional safety: cap avatar size */
