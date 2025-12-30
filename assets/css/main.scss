@@ -1,4 +1,4 @@
-/* Publications cards (thumbnail/video on the left + text on the right) */
+/* Publications cards: left media + right text (robust version) */
 .pub-card{
   display:flex;
   gap:16px;
@@ -7,17 +7,20 @@
 }
 
 .pub-card__thumb{
-  flex:0 0 220px;     /* 左侧宽度：你可以改 180~260 */
+  flex:0 0 220px;   /* 左侧宽度 */
   max-width:220px;
+  overflow:hidden;  /* 关键：防止媒体溢出撑爆布局 */
+  border-radius:8px;
 }
 
+/* 同时约束 img 和 video，且用 !important 抵抗全局样式覆盖 */
 .pub-card__thumb img,
-.pub-card__video{
-  width:100%;
-  height:140px;       /* 左侧媒体高度：建议 120~160 */
-  object-fit:cover;   /* 关键：裁切填充，避免撑爆布局 */
-  border-radius:8px;
-  display:block;
+.pub-card__thumb video{
+  width:100% !important;
+  height:140px !important;     /* 左侧媒体高度 */
+  object-fit:cover !important; /* 裁切填充 */
+  display:block !important;
+  border-radius:0 !important;  /* 圆角交给容器 .pub-card__thumb */
 }
 
 .pub-card__body{
@@ -42,5 +45,5 @@
   .pub-card{ flex-direction:column; }
   .pub-card__thumb{ max-width:100%; flex-basis:auto; }
   .pub-card__thumb img,
-  .pub-card__video{ height:auto; }
+  .pub-card__thumb video{ height:auto !important; }
 }
