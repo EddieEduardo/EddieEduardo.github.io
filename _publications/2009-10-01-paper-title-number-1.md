@@ -5,7 +5,7 @@ category: manuscripts
 date: 2024-01-22
 venue: "Journal of Manufacturing Processes"
 authors: "Xujie He, Jing Jin, Duo Chen, Yiyuan Feng"
-excerpt: "We propose an integrated defect detection method for cylinder bores based on a context encoder and perception-enhanced aggregation, improving robustness under complex textures and varying illumination in real production settings."
+excerpt: "First-gen cylinder bore inspection system for automotive engines."
 paperurl: "/files/CBDetector.pdf"
 teaser_poster: "/images/pubs/第一代.png"
 header:
