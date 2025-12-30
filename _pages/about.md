@@ -26,9 +26,11 @@ Publications
 ======
 
 {% include base_path %}
-{% for post in site.publications reversed limit:4 %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for post in pubs %}
   {% include archive-single-publication-card.html %}
 {% endfor %}
 
 [View all publications]({{ base_path }}/publications/)
+
 
