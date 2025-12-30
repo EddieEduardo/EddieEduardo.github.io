@@ -122,3 +122,18 @@
   padding-bottom: 160px;
 }
 
+/* Center hero title horizontally & vertically */
+.page__hero--overlay{
+  display:flex;
+  align-items:center;     /* 垂直居中 */
+}
+
+.page__hero--overlay .wrapper{
+  width:100%;
+}
+
+.page__hero--overlay .page__title{
+  width:100%;
+  text-align:center;      /* 水平居中 */
+}
+
