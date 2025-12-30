@@ -1,19 +1,19 @@
 ---
 permalink: /
 title: "BETTER AI, BETTER LIFE"
-layout: splash
+layout: single
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_image: /images/banner.png
+  overlay_image: /images/banner.jpg
   overlay_filter: 0.35
   overlay_color: "#000"
   text_color: "#fff"
   show_overlay_excerpt: false
-excerpt: ""
 ---
+
 
 ## About Me
 
