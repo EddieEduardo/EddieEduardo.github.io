@@ -3,7 +3,7 @@ title: "An integrated defect detection method based on context encoder and perce
 collection: publications
 category: manuscripts
 date: 2025-01-01
-venue: "Journal / Conference Name"
+venue: "*Journal of Manufacturing Processes*"
 authors: "Xujie He, Jing Jin, Duo Chen, Yiyuan Feng"
 excerpt: "1–2 句简介（两三行以内最好）。"
 paperurl: "/files/CBDetector.pdf"
