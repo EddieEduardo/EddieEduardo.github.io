@@ -31,6 +31,11 @@ author:
   employer         : #"Red Brick University"
   uri              : # URL
   email            : "hexujie@stu.hit.edu.cn" 
+  links:
+    - label: "CV"
+      icon: "fas fa-file-pdf"
+      url: "/files/中英文简历.pdf"
+
 
   # Academic websites
   academia         : # URL
