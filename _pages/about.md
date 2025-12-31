@@ -45,4 +45,12 @@ Foundation models (multi-modality foundation models), open-set recognition, comp
 - Outstanding Undergraduate Graduate.
 - Top 10 Campus Singers (26th Edition), Harbin Institute of Technology.
 
+Professional Activities
+------
+
+- Reviewer, IEEE Transactions on Intelligent Transportation Systems.
+- Reviewer, IEEE Transactions on Industrial Informatics.
+- Reviewer, IEEE Transactions on Instrumentation and Measurement.
+- Reviewer, Engineering Applications of Artificial Intelligence.
+- Reviewer, Pattern Recognition.
 
